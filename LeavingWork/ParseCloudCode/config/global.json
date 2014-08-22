@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "LeavingWork": {
+            "applicationId": "yzUQ3MwqkD78F4spvRsXa6y82CweGDNX8R0ql0bw", 
+            "masterKey": "oSVm8EUpNs9WoC4ooSGjG8zMD5OiGpWUQvRg3PdX"
+        }, 
+        "_default": {
+            "link": "LeavingWork"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}

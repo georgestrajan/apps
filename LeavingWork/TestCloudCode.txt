@@ -1,0 +1,6 @@
+curl -X POST \
+  -H "X-Parse-Application-Id: yzUQ3MwqkD78F4spvRsXa6y82CweGDNX8R0ql0bw" \
+  -H "X-Parse-REST-API-Key: au2KthWxAVp5dETQboE0T3G7hiMeFwFv2yiL11rx" \
+  -H "Content-Type: application/json" \
+  -d '{"text":"The Matrix","subject":"Second coming home notification"}' \
+  https://api.parse.com/1/functions/SendEmail
