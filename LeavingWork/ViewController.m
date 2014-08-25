@@ -50,7 +50,7 @@ const double defaultRegionRaduisMeters = 250;
     CLRegion* geofence = [self.geofences objectAtIndex:[indexPath row]];
     CLCircularRegion* circularRegion = (CLCircularRegion*)geofence;
     CLLocationCoordinate2D center = circularRegion.center;
-    NSString* text = [NSString stringWithFormat:@"%.1f | %.1f", center.latitude, center.longitude];
+    NSString* text = [NSString stringWithFormat:@"%.5f | %.5f", center.latitude, center.longitude];
     
     NSString* cellIdentifer = @"GeofenceCell";
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifer];
@@ -135,16 +135,9 @@ const double defaultRegionRaduisMeters = 250;
     }
 }
 
-- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
-    
-    CLCircularRegion* cirucularRegion = (CLCircularRegion*)region;
-    NSString* text = [NSString stringWithFormat:@"Entered region %.1f | %.1f", cirucularRegion.center.latitude, cirucularRegion.center.longitude];
-
-}
-
 - (void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
     CLCircularRegion* cirucularRegion = (CLCircularRegion*)region;
-    NSString* text = [NSString stringWithFormat:@"Exited region %.1f | %.1f", cirucularRegion.center.latitude, cirucularRegion.center.longitude];
+    NSString* text = [NSString stringWithFormat:@"Exited region %.5f | %.5f", cirucularRegion.center.latitude, cirucularRegion.center.longitude];
     
     PFObject *testObject = [PFObject objectWithClassName:@"didExitRegionObject"];
     testObject[@"text"] = text;

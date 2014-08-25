@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
-
+#import "AppViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +24,7 @@
     [Parse setApplicationId:@"yzUQ3MwqkD78F4spvRsXa6y82CweGDNX8R0ql0bw"
                   clientKey:@"myj9aHjeWKEqpOyPARSHqRrmyT0FA2AJS38FcV7C"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //self.window.rootViewController = [[AppViewController alloc] init];
     return YES;
 }
 

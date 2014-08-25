@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx version="1.1"
+     creator="GMapToGPX 6.4k - http://www.elsewhere.org/GMapToGPX/"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+      <wpt lat="47.61615" lon="-122.32678">
+         <name>GRTP-001</name>
+         <cmt>Head south on Bellevue Ave toward E Pine St</cmt>
+         <desc>Head south on Bellevue Ave toward E Pine St</desc>
+      </wpt>
+      <wpt lat="47.61522" lon="-122.32679">
+         <name>GRTP-002</name>
+         <cmt>Take the 1st left onto E Pine St</cmt>
+         <desc>Take the 1st left onto E Pine St</desc>
+      </wpt>
+      <wpt lat="47.61527" lon="-122.31815">
+         <name>GRTP-003</name>
+         <cmt>Turn left onto 11th Ave</cmt>
+         <desc>Turn left onto 11th Ave</desc>
+      </wpt>
+      <wpt lat="47.61783" lon="-122.3182">
+         <name>GMLS-001</name>
+         <cmt>1635 11th Ave</cmt>
+         <desc>1635 11th Ave</desc>
+      </wpt>
+</gpx>

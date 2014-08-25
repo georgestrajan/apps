@@ -17,8 +17,8 @@ Parse.Cloud.define("SendEmail", function(request, response) {
 	    from_name: "Coming home notification",
 	    to: [
 	      {
-	        email: "george.strajan@gmail.com",
-	        name: "No name"
+	        email: "george888@outlook.com",
+	        name: "George Strajan"
 	      }
 	    ]
 	  },

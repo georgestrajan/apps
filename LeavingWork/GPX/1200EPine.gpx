@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx version="1.1"
+     creator="GMapToGPX 6.4k - http://www.elsewhere.org/GMapToGPX/"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+   <wpt lat="47.61528" lon="-122.31684">
+      <name>1200 E Pine St, Seattle, WA 98122</name>
+      <cmt>1200 E Pine St, Seattle, WA 98122</cmt>
+      <desc>1200 E Pine St, Seattle, WA 98122</desc>
+   </wpt>
+</gpx>
