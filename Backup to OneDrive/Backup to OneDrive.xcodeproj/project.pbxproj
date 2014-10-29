@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D59DE6FD35B6DE22409F7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DED9F112DC80D6C8546DEA /* libPods.a */; };
+		A7A30E721A004AF3007FF40B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E711A004AF3007FF40B /* AppDelegate.m */; };
+		A7A30E741A004AF3007FF40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E731A004AF3007FF40B /* main.m */; };
+		A7A30E761A004AF3007FF40B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A30E751A004AF3007FF40B /* Images.xcassets */; };
+		A7A30E791A004AF3007FF40B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A30E771A004AF3007FF40B /* MainMenu.xib */; };
+		A7A30E851A004AF3007FF40B /* Backup_to_OneDriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E841A004AF3007FF40B /* Backup_to_OneDriveTests.m */; };
+		A7A30E961A00626E007FF40B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A30E951A00626E007FF40B /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A7A30E9A1A006432007FF40B /* LoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E981A006432007FF40B /* LoginWindow.m */; };
+		A7A30E9B1A006432007FF40B /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A30E991A006432007FF40B /* LoginWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A30E7F1A004AF3007FF40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A30E631A004AF3007FF40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A30E6A1A004AF3007FF40B;
+			remoteInfo = "Backup to OneDrive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9493045B68835B2B04E7E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		34DED9F112DC80D6C8546DEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4591A7B94C686E434D9BF23F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A30E6B1A004AF3007FF40B /* Backup to OneDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backup to OneDrive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A30E6F1A004AF3007FF40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A30E701A004AF3007FF40B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7A30E711A004AF3007FF40B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7A30E731A004AF3007FF40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A30E751A004AF3007FF40B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7A30E781A004AF3007FF40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7A30E7E1A004AF3007FF40B /* Backup to OneDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup to OneDriveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A30E831A004AF3007FF40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A30E841A004AF3007FF40B /* Backup_to_OneDriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Backup_to_OneDriveTests.m; sourceTree = "<group>"; };
+		A7A30E951A00626E007FF40B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A7A30E971A006432007FF40B /* LoginWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindow.h; sourceTree = "<group>"; };
+		A7A30E981A006432007FF40B /* LoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindow.m; sourceTree = "<group>"; };
+		A7A30E991A006432007FF40B /* LoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A30E681A004AF3007FF40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A30E961A00626E007FF40B /* WebKit.framework in Frameworks */,
+				26D59DE6FD35B6DE22409F7A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A30E7B1A004AF3007FF40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788D0B02D4B4846978665BC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DED9F112DC80D6C8546DEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A30E621A004AF3007FF40B = {
+			isa = PBXGroup;
+			children = (
+				A7A30E951A00626E007FF40B /* WebKit.framework */,
+				A7A30E6D1A004AF3007FF40B /* Backup to OneDrive */,
+				A7A30E811A004AF3007FF40B /* Backup to OneDriveTests */,
+				A7A30E6C1A004AF3007FF40B /* Products */,
+				C5FDE331574245E10E339506 /* Pods */,
+				788D0B02D4B4846978665BC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A30E6C1A004AF3007FF40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A30E6B1A004AF3007FF40B /* Backup to OneDrive.app */,
+				A7A30E7E1A004AF3007FF40B /* Backup to OneDriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A30E6D1A004AF3007FF40B /* Backup to OneDrive */ = {
+			isa = PBXGroup;
+			children = (
+				A7A30E701A004AF3007FF40B /* AppDelegate.h */,
+				A7A30E711A004AF3007FF40B /* AppDelegate.m */,
+				A7A30E751A004AF3007FF40B /* Images.xcassets */,
+				A7A30E771A004AF3007FF40B /* MainMenu.xib */,
+				A7A30E6E1A004AF3007FF40B /* Supporting Files */,
+				A7A30E971A006432007FF40B /* LoginWindow.h */,
+				A7A30E981A006432007FF40B /* LoginWindow.m */,
+				A7A30E991A006432007FF40B /* LoginWindow.xib */,
+			);
+			path = "Backup to OneDrive";
+			sourceTree = "<group>";
+		};
+		A7A30E6E1A004AF3007FF40B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A30E6F1A004AF3007FF40B /* Info.plist */,
+				A7A30E731A004AF3007FF40B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7A30E811A004AF3007FF40B /* Backup to OneDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A30E841A004AF3007FF40B /* Backup_to_OneDriveTests.m */,
+				A7A30E821A004AF3007FF40B /* Supporting Files */,
+			);
+			path = "Backup to OneDriveTests";
+			sourceTree = "<group>";
+		};
+		A7A30E821A004AF3007FF40B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A30E831A004AF3007FF40B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5FDE331574245E10E339506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4591A7B94C686E434D9BF23F /* Pods.debug.xcconfig */,
+				0B9493045B68835B2B04E7E5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A30E6A1A004AF3007FF40B /* Backup to OneDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A30E881A004AF3007FF40B /* Build configuration list for PBXNativeTarget "Backup to OneDrive" */;
+			buildPhases = (
+				E793A51CC02505ABD701239F /* Check Pods Manifest.lock */,
+				A7A30E671A004AF3007FF40B /* Sources */,
+				A7A30E681A004AF3007FF40B /* Frameworks */,
+				A7A30E691A004AF3007FF40B /* Resources */,
+				35CB627B67B43A6DB1887C7C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Backup to OneDrive";
+			productName = "Backup to OneDrive";
+			productReference = A7A30E6B1A004AF3007FF40B /* Backup to OneDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A30E7D1A004AF3007FF40B /* Backup to OneDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A30E8B1A004AF3007FF40B /* Build configuration list for PBXNativeTarget "Backup to OneDriveTests" */;
+			buildPhases = (
+				A7A30E7A1A004AF3007FF40B /* Sources */,
+				A7A30E7B1A004AF3007FF40B /* Frameworks */,
+				A7A30E7C1A004AF3007FF40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A30E801A004AF3007FF40B /* PBXTargetDependency */,
+			);
+			name = "Backup to OneDriveTests";
+			productName = "Backup to OneDriveTests";
+			productReference = A7A30E7E1A004AF3007FF40B /* Backup to OneDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A30E631A004AF3007FF40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "George Strajan";
+				TargetAttributes = {
+					A7A30E6A1A004AF3007FF40B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A7A30E7D1A004AF3007FF40B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A7A30E6A1A004AF3007FF40B;
+					};
+				};
+			};
+			buildConfigurationList = A7A30E661A004AF3007FF40B /* Build configuration list for PBXProject "Backup to OneDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A30E621A004AF3007FF40B;
+			productRefGroup = A7A30E6C1A004AF3007FF40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A30E6A1A004AF3007FF40B /* Backup to OneDrive */,
+				A7A30E7D1A004AF3007FF40B /* Backup to OneDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A30E691A004AF3007FF40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A30E761A004AF3007FF40B /* Images.xcassets in Resources */,
+				A7A30E9B1A006432007FF40B /* LoginWindow.xib in Resources */,
+				A7A30E791A004AF3007FF40B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A30E7C1A004AF3007FF40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35CB627B67B43A6DB1887C7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E793A51CC02505ABD701239F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A30E671A004AF3007FF40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A30E741A004AF3007FF40B /* main.m in Sources */,
+				A7A30E9A1A006432007FF40B /* LoginWindow.m in Sources */,
+				A7A30E721A004AF3007FF40B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A30E7A1A004AF3007FF40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A30E851A004AF3007FF40B /* Backup_to_OneDriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A30E801A004AF3007FF40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A30E6A1A004AF3007FF40B /* Backup to OneDrive */;
+			targetProxy = A7A30E7F1A004AF3007FF40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7A30E771A004AF3007FF40B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A30E781A004AF3007FF40B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A30E861A004AF3007FF40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7A30E871A004AF3007FF40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7A30E891A004AF3007FF40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4591A7B94C686E434D9BF23F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/georgestrajan/Downloads/LiveSDK-for-iOS-master/bin",
+				);
+				INFOPLIST_FILE = "Backup to OneDrive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7A30E8A1A004AF3007FF40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9493045B68835B2B04E7E5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/georgestrajan/Downloads/LiveSDK-for-iOS-master/bin",
+				);
+				INFOPLIST_FILE = "Backup to OneDrive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7A30E8C1A004AF3007FF40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Backup to OneDriveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup to OneDrive.app/Contents/MacOS/Backup to OneDrive";
+			};
+			name = Debug;
+		};
+		A7A30E8D1A004AF3007FF40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Backup to OneDriveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backup to OneDrive.app/Contents/MacOS/Backup to OneDrive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A30E661A004AF3007FF40B /* Build configuration list for PBXProject "Backup to OneDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A30E861A004AF3007FF40B /* Debug */,
+				A7A30E871A004AF3007FF40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A30E881A004AF3007FF40B /* Build configuration list for PBXNativeTarget "Backup to OneDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A30E891A004AF3007FF40B /* Debug */,
+				A7A30E8A1A004AF3007FF40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A30E8B1A004AF3007FF40B /* Build configuration list for PBXNativeTarget "Backup to OneDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A30E8C1A004AF3007FF40B /* Debug */,
+				A7A30E8D1A004AF3007FF40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A30E631A004AF3007FF40B /* Project object */;
+}

@@ -26,6 +26,8 @@
 		A76C526419A5725400346F95 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C526319A5725400346F95 /* SystemConfiguration.framework */; };
 		A76C529C19A5731A00346F95 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C529B19A5731A00346F95 /* Parse.framework */; };
 		A79618FB19A2E14600AEEF4B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79618FA19A2E14600AEEF4B /* MapKit.framework */; };
+		A7F4833C19A6FF34009A484A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F4833B19A6FF34009A484A /* AppViewController.m */; };
+		A7F4833F19A70382009A484A /* OnboardingView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F4833E19A70382009A484A /* OnboardingView1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		A79618FA19A2E14600AEEF4B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A7F4833619A5773C009A484A /* LeavingWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeavingWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F4833719A5773C009A484A /* LeavingWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeavingWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F4833A19A6FF34009A484A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		A7F4833B19A6FF34009A484A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		A7F4833E19A70382009A484A /* OnboardingView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingView1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 		5E179A911989FF3C006E4A33 /* LeavingWork */ = {
 			isa = PBXGroup;
 			children = (
+				A7F4833D19A70331009A484A /* Onboarding */,
 				5E179A961989FF3C006E4A33 /* AppDelegate.h */,
 				5E179A971989FF3C006E4A33 /* AppDelegate.m */,
 				5E179A9C1989FF3C006E4A33 /* ViewController.h */,
@@ -129,6 +135,8 @@
 				5E179AA21989FF3C006E4A33 /* Images.xcassets */,
 				5E179A991989FF3C006E4A33 /* LeavingWork.xcdatamodeld */,
 				5E179A921989FF3C006E4A33 /* Supporting Files */,
+				A7F4833A19A6FF34009A484A /* AppViewController.h */,
+				A7F4833B19A6FF34009A484A /* AppViewController.m */,
 			);
 			path = LeavingWork;
 			sourceTree = "<group>";
@@ -157,6 +165,14 @@
 				5E179AAD1989FF3C006E4A33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F4833D19A70331009A484A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4833E19A70382009A484A /* OnboardingView1.xib */,
+			);
+			name = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +263,7 @@
 			files = (
 				5E179AA11989FF3C006E4A33 /* Main.storyboard in Resources */,
 				5E179AA31989FF3C006E4A33 /* Images.xcassets in Resources */,
+				A7F4833F19A70382009A484A /* OnboardingView1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F4833C19A6FF34009A484A /* AppViewController.m in Sources */,
 				5E179A981989FF3C006E4A33 /* AppDelegate.m in Sources */,
 				5E179A9B1989FF3C006E4A33 /* LeavingWork.xcdatamodeld in Sources */,
 				5E179A9E1989FF3C006E4A33 /* ViewController.m in Sources */,
